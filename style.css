@@ -126,6 +126,7 @@ body {
     display: flex;
     margin-top: 160px;
     padding: 20px;
+    background-color: aquamarine;
 }
 
 h3 {
