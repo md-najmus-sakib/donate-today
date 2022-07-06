@@ -1,0 +1,114 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.font-color-change {
+    font-size: 60px;
+    color: white;
+}
+
+.link-button {
+    text-decoration: none;
+    color: azure;
+    background-image: linear-gradient(orange, orangered);
+    padding: 13px 26px;
+    border-radius: 5px;
+}
+
+.first-div {
+    text-align: center;
+    background-image: url(images/another-new.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    padding: 120px;
+}
+
+#para-font {
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.second-div {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.header-font {
+    font-size: 45px;
+}
+
+.paragraph-font {
+    color: rgb(102, 95, 95);
+    font-size: 20px;
+}
+
+#pay-money {
+    display: flex;
+    margin-top: 35px;
+    margin-left: 210px;
+}
+
+.common-div {
+    font-size: 30px;
+    text-align: center;
+    color: rgb(102, 95, 95);
+    width: 200px;
+    height: 106px;
+    margin-left: 8px;
+    margin-right: 8px;
+    box-shadow: 5px 50px 50px gray;
+    border-radius: 15px;
+}
+
+#color-add {
+    font-size: 30px;
+    text-align: center;
+    color: rgb(102, 95, 95);
+    width: 200px;
+    height: 106px;
+    margin-left: 8px;
+    margin-right: 8px;
+    box-shadow: 5px 50px 50px gray;
+    border-radius: 15px;
+    background-color: rgb(243, 12, 12);
+}
+
+#payment-div {
+    margin-top: 70px;
+    margin-left: 350px;
+    margin-right: 350px;
+    text-align: center;
+}
+
+#learn-section {
+    margin-top: 50px;
+    margin-right: 60px;
+    display: flex;
+}
+
+#general-rights-one {
+    background-color: rgb(231, 244, 244);
+    text-align: justify;
+    margin-left: 100px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#general-rights-two {
+    background-color: rgb(247, 228, 231);
+    text-align: justify;
+    margin-left: 25px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#general-rights-three {
+    background-color: rgb(246, 246, 217);
+    text-align: justify;
+    margin-left: 25px;
+    padding: 15px;
+    border-radius: 5px;
+}
