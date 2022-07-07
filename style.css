@@ -8,7 +8,7 @@ body {
 
 .font-color-change {
     font-size: 60px;
-    color: white;
+    color: rgb(94, 255, 0);
 }
 
 .link-button {
@@ -19,7 +19,7 @@ body {
     border-radius: 5px;
 }
 
-.first-div {
+#first-div {
     text-align: center;
     background-image: url(images/another-new.jpg);
     background-repeat: no-repeat;
@@ -77,6 +77,10 @@ body {
     border-radius: 15px;
     border: 3px solid red;
     background-color: rgb(242, 215, 215);
+}
+
+#payment-input {
+    margin-bottom: 30px;
 }
 
 #payment-div {
@@ -162,7 +166,7 @@ h3 {
     margin-top: 75px;
 }
 
-form {
+#email-input {
     margin-left: 200px;
     margin-top: 85px;
     color: gray;

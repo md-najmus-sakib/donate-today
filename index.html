@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <div class="first-div">
+    <div id="first-div">
         <h1 class="font-color-change">Let's Help Those Who <br> Are More In Need</h1>
         <p class="para-font">You have not lived today until you have done something for <br> someone who can never repay
             you.
@@ -47,8 +47,9 @@
     </section>
 
     <div id="payment-div">
-        <p class="paragraph-font">Other Amount (Taka)</p>
-        <hr> <br><br>
+        <form id="payment-input" action="">
+            <input type="number" placeholder="Other Amount (Taka)">
+        </form>
         <a class="link-button" target="_blank" href="">Donate Now</a>
     </div>
 
@@ -61,25 +62,25 @@
 
     <section id="learn-section">
         <div id="general-rights-one"><br><br>
-            <img src="icons/food.png" alt=""><br>
+            <img src="icons/food.png" alt=""><br><br>
             <h1>Food for a family</h1>
             <p class="paragraph-font">Eating good food, especially with family and friends, is one of the pleasures of
                 life.We all know that people who eat healthy, balanced diets are likely to have: plenty of energy to
-                work and enjoy themselves.</p>
+                work and enjoy themselves.</p><br><br>
         </div>
         <div id="general-rights-two"> <br><br>
-            <img src="icons/shelter.png" alt=""><br>
+            <img src="icons/shelter.png" alt=""><br><br>
             <h1>Shelter for a family</h1>
             <p class="paragraph-font">This approach combines both static and rotational shelter. Families may spend part
                 of their time in the shelter program at a designated shelter site and part of their time at community
-                locations. </p>
+                locations. </p><br><br>
         </div>
         <div id="general-rights-three"><br><br>
-            <img src="icons/Frame-1.png" alt=""><br>
+            <img src="icons/Frame-1.png" alt=""><br><br>
             <h1>Education for a child</h1>
             <p class="paragraph-font">Education is an essential component in a child's life as it enhances their skill,
                 personality and attitude. It is rightly said that "education is the foundation upon which we build our
-                future".</p>
+                future".</p><br><br>
         </div>
     </section>
 
@@ -107,8 +108,8 @@
     </div>
 
     <section id="box-section">
-        <form action="">
-            <input type="email" name="email" id="">
+        <form id="email-input" action="">
+            <input type="email" name="email" id="" placeholder="Email">
         </form>
         <a class="link-button-box" target="_blank" href="">Subscribe</a>
     </section>
